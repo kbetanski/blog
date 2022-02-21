@@ -2,3 +2,12 @@ betanski.dev
 
 root * /public
 file_server
+
+@plausible path /js/script.js /api/event
+handle @plausible {
+  rewrite /js/script.js /js/plausible.js
+
+  reverse_proxy https://plausible.io {
+    header_up Host {http.reverse_proxy.upstream.hostport}
+  }
+}
