@@ -4,6 +4,7 @@ description: "Using GitLab CI/CD as a build system for the monorepository."
 date: "2020-03-22"
 lastmode: "2022-02-21"
 image: gitlab.jpg
+toc: true
 tags:
   - ci
   - GitLab
