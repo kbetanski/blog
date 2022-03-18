@@ -2,7 +2,7 @@
 title: "Rotate RDS master password with Terraform"
 description: "How to rotate previously generated master password for AWS RDS in Terraform."
 date: "2022-03-10"
-lastmode: "2022-03-10"
+lastmod: "2022-03-18"
 image: terraform.png
 toc: true
 tags:
@@ -85,6 +85,6 @@ rotate-password:
 ```
 
 Define the job above in the `.gitlab-ci.yml` file in the repository and head to
-the **CI/CD -> Schedules** in the GitLab project. Ther can be added a schedule
+the **CI/CD -> Schedules** in the GitLab project. There can be added a schedule
 of how often the CI will be triggered using cron notation. More information is
 in the link to the GitLab repository at the end of the article.

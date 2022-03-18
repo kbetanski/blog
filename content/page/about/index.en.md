@@ -20,7 +20,7 @@ links:
   - title: GitHub
     website: https://github.com/kbetanski
     image: github.png
-
+toc: false
 ---
 
 ### Hello!
@@ -35,3 +35,5 @@ subgenre. Playing instruments, my main is the bass guitar. Tasting new craft
 beers and throwing some cubes with friends in tabletop games. I'm also in the
 progress of building a small home-based recording studio and learning how to draw
 things.
+
+My prononous are: he/him.

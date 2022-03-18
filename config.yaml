@@ -18,6 +18,16 @@ DefaultContentLanguage: en
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
 
+languages:
+    en:
+        languageName: English
+        title: Kacper Betański
+        weight: 1
+    pl:
+        languageName: Polski
+        title: Kacper Betański
+        weight: 2
+
 permalinks:
     post: /post/:slug/
     page: /:slug/
@@ -39,10 +49,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: |
-            Programming enthusiast working with monitoring and maintainance.
-            
-            He/Him
+        subtitle:
         avatar:
             enabled: true
             local: true
@@ -136,16 +143,19 @@ params:
             id:
 
     widgets:
-        enabled:
-            - search
-            - archives
-            - tag-cloud
-
-        archives:
-            limit: 5
-
-        tagCloud:
-            limit: 10
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter:
