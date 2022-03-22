@@ -1,6 +1,6 @@
 ---
-title: "Rotacja hasła administracyjnego w RDS używając Terraforma"
-description: "Jak zmienić poprzednio wygenerowane hasło główne w AWS RDS przy użyciu Terraforma."
+title: "Rotacja hasła administratora AWS RDS używając Terraforma"
+description: "Jak zmienić poprzednio wygenerowane hasło administratora w AWS RDS przy użyciu Terraforma."
 date: "2022-03-18"
 lastmod: "2022-03-18"
 image: terraform.png
@@ -14,13 +14,12 @@ links:
   - title: GitLab CI/CD Schedules Dokumentacja
     description: Dokumentacja dla narzędzia GitLab CI/CD.
     website: https://docs.gitlab.com/ee/ci/pipelines/schedules.html
-    image: gitlab-icon.jpg
 ---
 
 ## Obecny stan
 
-Przyjmijmy, że hasło główne zostało wcześniej wygenerowane przy użyciu skryptów
-Terraform. Kod takiego skryptu wygląda następująco:
+Przyjmijmy, że hasło administratora zostało wcześniej wygenerowane przy użyciu
+skryptów Terraform. Kod takiego skryptu wygląda następująco:
 
 ```tf
 resource "random_password" "rds_password" {
@@ -70,10 +69,10 @@ terraform apply -replace="random_password.rds_password"
 ```
 
 Terraform przedstawi plan zmian do przeprowadzenia w infrastrukturze. W naszym
-przypadku będzie do zastąpienie zasobu hasła administracyjnego nowym oraz zmiana
+przypadku będzie do zastąpienie zasobu hasła administratora nowym oraz zmiana
 wartości przekazywanej do pola 'master_password' w
 'aws_rds_cluster.rds_cluster'. Po zaakceptowaniu zmian do wdrożenia klaster AWS
-RDS natychmiastowo przejdzie do próby zmiany hasła administracyjnego w całym
+RDS natychmiastowo przejdzie do próby zmiany hasła administratora całym
 klastrze.
 
 ## Automatyzacja rotacji hasła

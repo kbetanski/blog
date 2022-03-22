@@ -1,8 +1,13 @@
 baseurl: https://betanski.dev
 languageCode: en-us
-theme: stack
+theme: github.com/CaiJimmy/hugo-theme-stack/v3
 paginate: 5
 title: Kacper Betański
+
+module:
+    imports:
+        - path: github.com/CaiJimmy/hugo-theme-stack/v3
+          disable: false
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -48,7 +53,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 
+        emoji:
         subtitle:
         avatar:
             enabled: true

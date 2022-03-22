@@ -13,11 +13,9 @@ links:
   - title: Example Repository
     description: Repository for the code from the blog post.
     website: https://github.com/kbetanski/gitlab-ci-monorepo
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: GitLab CI Documentation
     description: Documentation for GitLab CI/CD tool for software development using continuous methodologies.
     website: https://docs.gitlab.com/ee/ci/
-    image: gitlab-icon.jpg
 
 ---
 

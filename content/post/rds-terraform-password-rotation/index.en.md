@@ -14,7 +14,6 @@ links:
   - title: GitLab CI/CD Schedules Documentation
     description: Documentation for GitLab CI/CD tool for software development using continuous methodologies.
     website: https://docs.gitlab.com/ee/ci/pipelines/schedules.html
-    image: gitlab-icon.jpg
 ---
 
 ## Existing state
