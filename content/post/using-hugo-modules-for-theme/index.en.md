@@ -3,7 +3,6 @@ title: "Using Hugo modules for themes"
 description: "How to use the easiest way to handle theme versioning inside your Hugo website."
 date: "2022-03-22"
 lastmod: "2022-03-22"
-image: 
 toc: true
 tags:
   - jamstack

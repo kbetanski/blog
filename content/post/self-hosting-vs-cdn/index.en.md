@@ -3,7 +3,6 @@ title: "Static website self-hosting vs CDN"
 description: ""
 date: "2022-03-22"
 lastmod: "2022-03-22"
-image: 
 toc: true
 tags:
   - jam

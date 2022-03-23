@@ -3,7 +3,6 @@ title: "AWS ECS vs Kubernetes"
 description: "Comparison after working with both services on production environment."
 date: "2022-03-18"
 lastmod: "2022-03-18"
-image: 
 toc: true
 tags:
   - aws

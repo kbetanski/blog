@@ -14,6 +14,5 @@ links:
   - title: Grafana Cloud
     description: Referral link to the Grafana Cloud website.
     website: https://grafana.com/auth/sign-up?refCode=gr8gBCWKAhREAR7
-    image: grafana.png
 draft: true
 ---

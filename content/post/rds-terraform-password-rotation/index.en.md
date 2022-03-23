@@ -3,7 +3,6 @@ title: "Rotate RDS master password with Terraform"
 description: "How to rotate previously generated master password for AWS RDS in Terraform."
 date: "2022-03-10"
 lastmod: "2022-03-18"
-image: terraform.png
 toc: true
 tags:
   - aws
