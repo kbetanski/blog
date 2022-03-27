@@ -1,6 +1,5 @@
 baseurl: https://betanski.dev
 languageCode: en-us
-theme: github.com/CaiJimmy/hugo-theme-stack/v3
 paginate: 5
 title: Kacper Betański
 
