@@ -1,9 +1,10 @@
 ---
-title: "Rotacja hasła administratora AWS RDS używając Terraforma"
+title: "Terraform - Rotacja hasła administratora AWS RDS"
 description: "Jak zmienić poprzednio wygenerowane hasło administratora w AWS RDS przy użyciu Terraforma."
 date: "2022-03-18"
 lastmod: "2022-03-18"
 toc: true
+slug: terraform-rotacja-hasla-administratora-aws-rds
 tags:
   - aws
   - rds

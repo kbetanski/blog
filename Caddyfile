@@ -8,6 +8,8 @@ betanski.dev {
 		}
 	}
 
+	redir /post/gitlab-ci/cd-and-monorepo/ /post/gitlab-ci-cd-and-monorepo/ permanent
+
 	@static {
 		file
 		path *.ico *.gif *.jpg *.jpeg *.png *.svg *.woff *.woff2
