@@ -4,7 +4,7 @@ alerts:
 - rule: DOMAIN_FAILED
 region: fra
 static_sites:
- - build_command: hugo mod get; rm -r ./public; hugo --destination ./public
+ - build_command: hugo mod get; hugo --destination ./public
    environment_slug: hugo
    github:
      branch: trunk
