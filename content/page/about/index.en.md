@@ -17,10 +17,8 @@ menu:
 links:
   - title: Twitter
     website: https://twitter.com/kbetanski
-    image: twitter.png
   - title: GitHub
     website: https://github.com/kbetanski
-    image: github.png
 toc: false
 ---
 
