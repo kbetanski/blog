@@ -44,23 +44,23 @@ resource "aws_rds_cluster" "rds_cluster" {
 ```
 
 Do znalezienia jest w tym przypadku klucz, pod którym znajduje się zapisany
-zasób 'random_password.rds_password' w zapisanym stanie:
+zasób `random_password.rds_password` w zapisanym stanie:
 
 ```bash {linenos=false}
 terraform state list | grep "random_password.rds_password"
 ```
 
-Przyjmijmy, że klucz ma nazwę: 'random_password.rds_password'. Jednakże, w
+Przyjmijmy, że klucz ma nazwę: `random_password.rds_password`. Jednakże, w
 przypadku bardziej skomplikowanych skryptów klucz może posiadać również inne
 nazwy, na przykład:
-'module.rds_cluster_eu_west.random_password.primary_cluster_master_password'.
+`module.rds_cluster_eu_west.random_password.primary_cluster_master_password`.
 
 ## Zastąpienie starego zasobu nowym
 
 Utworzony wcześniej zasób wygenerowanego hasła jest zapisany w pliku stanu
 infrastruktury. Terraform nie podejmie się wygenerowania tego hasła ponownie ze
 względu na to, że zasób hasła został już utworzony. Należy wymusić na nim
-ponowne wygenerowanie tego zasobu przy wykorzystaniu flagi '-replace'.
+ponowne wygenerowanie tego zasobu przy wykorzystaniu flagi `-replace`.
 
 Podsumowując, komenda generująca nowe hasło główne wygląda tak:
 
@@ -70,8 +70,8 @@ terraform apply -replace="random_password.rds_password"
 
 Terraform przedstawi plan zmian do przeprowadzenia w infrastrukturze. W naszym
 przypadku będzie do zastąpienie zasobu hasła administratora nowym oraz zmiana
-wartości przekazywanej do pola 'master_password' w
-'aws_rds_cluster.rds_cluster'. Po zaakceptowaniu zmian do wdrożenia klaster AWS
+wartości przekazywanej do pola `master_password` w
+`aws_rds_cluster.rds_cluster`. Po zaakceptowaniu zmian do wdrożenia klaster AWS
 RDS natychmiastowo przejdzie do próby zmiany hasła administratora całym
 klastrze.
 
@@ -89,9 +89,9 @@ rotate-password:
     - scheduled
 ```
 
-Po zdefiniowaniu takiej konfiguracji w pliku '.gitlab-ci.yml' w repozytorium
+Po zdefiniowaniu takiej konfiguracji w pliku `.gitlab-ci.yml` w repozytorium
 trzeba jeszcze skonfigurować cykliczne uruchamianie CI/CD. Odpowiednie
 ustawienia można znaleźć w menu projektu pod **CI/CD -> Schedules**. W tym
 miejscu można zdefiniować jak często CI/CD ma być wywoływany do uruchomienia
-przy użyciu zapisu narzędzia 'cron'. Więcej informacji można znaleźć w
+przy użyciu zapisu narzędzia `cron`. Więcej informacji można znaleźć w
 dokumentacji podlinkowanej na końcu artykułu.

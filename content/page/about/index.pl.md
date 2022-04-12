@@ -15,6 +15,8 @@ menu:
         params:
             icon: user
 links:
+  - title: Email
+    website: mailto:kacper@betanski.dev
   - title: Twitter
     website: https://twitter.com/kbetanski
   - title: GitHub
