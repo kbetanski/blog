@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji:
-        subtitle:
+        subtitle: Programming, System Administration, and Music
         avatar:
             enabled: true
             local: true
@@ -152,9 +152,9 @@ params:
             - type: archives
               params:
                   limit: 5
-            - type: categories
-              params:
-                  limit: 10
+            # - type: categories
+            #   params:
+            #       limit: 10
             - type: tag-cloud
               params:
                   limit: 10
