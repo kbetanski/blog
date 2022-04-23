@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji:
-        subtitle: Personal blog about Programming, System Administration, Art, and Music
+        subtitle: Personal blog about Art, Music, Programming, and System Administration.
         avatar:
             enabled: true
             local: true
@@ -246,7 +246,7 @@ markup:
         startLevel: 2
     highlight:
         style: github
-        noClasses: true
+        noClasses: false
         codeFences: true
         guessSyntax: true
         lineNoStart: 1
