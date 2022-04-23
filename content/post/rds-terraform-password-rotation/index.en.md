@@ -8,7 +8,9 @@ tags:
   - aws
   - rds
   - terraform
-  - password rotation
+  - rotation
+  - random_password
+  - IaaC
 links:
   - title: GitLab CI/CD Schedules Documentation
     description: Documentation for GitLab CI/CD tool for software development using continuous methodologies.

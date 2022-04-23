@@ -53,7 +53,7 @@ params:
 
     sidebar:
         emoji:
-        subtitle: Programming, System Administration, and Music
+        subtitle: Personal blog about Programming, System Administration, Art, and Music
         avatar:
             enabled: true
             local: true

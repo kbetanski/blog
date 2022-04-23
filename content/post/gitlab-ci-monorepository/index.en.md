@@ -6,9 +6,10 @@ lastmod: "2022-02-21"
 toc: true
 slug: gitlab-ci-cd-and-monorepo
 tags:
-  - ci
   - GitLab
-  - monorepo
+  - monorepository
+  - CI/CD
+  - gitlab-ci
 links:
   - title: Example Repository
     description: Repository for the code from the blog post.

@@ -7,6 +7,8 @@ toc: true
 tags:
   - jamstack
   - hugo
+  - modules
+  - themes
 links:
   - title: Hugo
     description: 
