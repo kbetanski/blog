@@ -1,4 +1,3 @@
 User-agent: *
 
-Sitemap: https://betanski.dev/en/sitemap.xml
-Sitemap: https://betanski.dev/pl/sitemap.xml
+Sitemap: https://betanski.dev/sitemap.xml

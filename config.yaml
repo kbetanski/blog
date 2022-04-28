@@ -217,6 +217,13 @@ menu:
               newTab: true
               icon: brand-github
 
+        - identifier: mastodon
+          name: Mastodon
+          url: https://cybre.space/@kylaver
+          params:
+              newTab: true
+              icon: social
+
         - identifier: twitter
           name: Twitter
           url: https://twitter.com/kbetanski

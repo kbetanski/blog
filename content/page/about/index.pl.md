@@ -15,12 +15,14 @@ menu:
         params:
             icon: user
 links:
-  - title: Email
-    website: mailto:kacper@betanski.dev
-  - title: Twitter
-    website: https://twitter.com/kbetanski
   - title: GitHub
     website: https://github.com/kbetanski
+  - title: Mastodon
+    website: https://cybre.space/@kylaver
+  - title: Twitter
+    website: https://twitter.com/kbetanski
+  - title: Email
+    website: mailto:kacper@betanski.dei
 toc: false
 ---
 
