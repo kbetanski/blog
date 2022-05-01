@@ -217,8 +217,8 @@ menu:
               newTab: true
               icon: brand-github
 
-        - identifier: mastodon
-          name: Mastodon
+        - identifier: fediverse
+          name: Fediverse
           url: https://cybre.space/@kylaver
           params:
               newTab: true

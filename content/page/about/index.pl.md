@@ -17,7 +17,7 @@ menu:
 links:
   - title: GitHub
     website: https://github.com/kbetanski
-  - title: Mastodon
+  - title: Fediverse
     website: https://cybre.space/@kylaver
   - title: Twitter
     website: https://twitter.com/kbetanski
