@@ -17,8 +17,8 @@ links: []
 Current needs of my band for web storage turned us to hosting Nextcloud
 instance. I wanted to self-host it on my RPi4, my current home server. So, I
 configured it to use my SD card as storage, but it didn't work out. SD card was
-too slow for usage as web storage. Then, I moved to use B2 as storage. And as
-you can see from the title, it didn't work out as well. B2 turned out to be too
+too slow for usage as web storage. Then, I moved to B2 as a storage. And as you
+can see from the title, it didn't work out as well. B2 turned out to be too
 clanky and unresponsive as primary storage for the Nextcloud instance.
 
 That was the moment of my decision to buy an SSD. I bought a cheap 250GB Crucial
