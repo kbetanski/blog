@@ -4,7 +4,7 @@ description: "Configuring, using, and benchmarking SSD with Raspberry Pi 4B conn
 date: "2022-05-01"
 lastmod: "2022-05-01"
 toc: true
-slug: using-sdd-with-raspberry-pi-4b
+slug: using-ssd-with-raspberry-pi-4b
 tags:
   - Raspberry-Pi
   - RPi
