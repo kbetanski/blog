@@ -164,7 +164,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site: "@kbetanski"
+            site: "kbetanski"
 
             # Available values: summary, summary_large_image
             card: summary
